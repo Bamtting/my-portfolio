@@ -1,0 +1,69 @@
+.header{
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100px;
+    z-index: 9;
+  }
+  .header:hover{
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  .header-box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    line-height: 100px;
+  }
+  .logo-box {
+    width: 100px;
+    height: 50px;
+  }
+  .logo-box img{
+    width: 100%;
+    min-width: 100px;
+    object-fit: cover;
+  }
+  .header-menu ul{
+    display: flex;
+  }
+  .header-menu li{
+    margin-left: 50px;
+    text-align: center;
+  }
+  .header-menu ul li a{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  
+  /* 메뉴 밑줄 효과 */
+  .to-right-underline{
+    position: relative;
+  }
+  .to-right-underline:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0px;
+    height: 2px;
+    margin: 5px 0 0;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.3s;
+    opacity: 0;
+    background-color: #ffffff;
+  }
+  .to-right-underline:hover:after{
+    width: 100%;
+    opacity: 1;
+  }
+
+  @media  all and (max-width: 1024px) {
+    
+  }
+  @media  all and (max-width: 768px) {
+    
+  }
+  @media  all and (max-width: 480px) {
+    
+  }
