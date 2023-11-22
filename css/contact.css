@@ -28,15 +28,15 @@
     margin-right: 10px;
 }
 .contact-nember{
-    font-size: 25px;
+    font-size: 24px;
     margin-bottom: 42px;
 }
 .contact-nember img{
-    width: 25px;
+    width: 24px;
     margin-right: 15px;
 }
 .contact-mail{
-    font-size: 25px;
+    font-size: 24px;
     margin-bottom: 42px;
 }
 .contact-mail img{
@@ -57,8 +57,22 @@
     
 }
 @media  all and (max-width: 768px) {
-  
+  .contact-box div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-box div img{
+    margin-bottom: 10px;
+  }
+  .contact-box{
+    padding: 50px;
+  }
 }
 @media  all and (max-width: 480px) {
+    .contact-a-box div{
+        font-size: 20px;
+    }
   
 }

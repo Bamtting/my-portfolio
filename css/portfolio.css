@@ -5,6 +5,7 @@
     width: 100%;
     height: 100%;
     min-height: 960px;
+    padding: 100px 0;
 }
 
 .pf-title{
@@ -43,9 +44,10 @@ content: "";
 }
 .text-box{
     width: 50%;
-    padding: 100px;
+    padding: 80px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     border: 3px solid #fff;
 }
 .text-box h3{
@@ -53,11 +55,12 @@ content: "";
     margin-bottom: 20px;
 }
 .text-box .sub{
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 1.5;
     margin-bottom: 30px;
 }
 .text-box p {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 30px;
 }
 .img-box{
@@ -76,6 +79,7 @@ content: "";
 .pf-bt div{
     width: 200px;
     height: 50px;
+    margin-right: 10px;
     line-height: 50px;
     border: 1px solid #fff;
     border-radius: 20px;
@@ -99,8 +103,36 @@ content: "";
     
 }
 @media  all and (max-width: 768px) {
+    .pf1{
+        display: block;
+    }
+    .img-box{
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .text-box{
+        width: 100%;
+    }
   
 }
+@media all and (max-width: 600px) {
+    .pf-menu li button{
+        font-size: 16px;
+    }
+}
 @media  all and (max-width: 480px) {
-  
+    .text-box{
+        padding: 40px;
+    }
+    .pf-bt div{
+        width: 150px;
+        height: 50px;
+        margin:0 10px;
+    }
+    .pf-bt a{
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+    }
 }

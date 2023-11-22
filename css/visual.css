@@ -23,8 +23,21 @@
     
   }
   @media  all and (max-width: 768px) {
-    
+    .visual-font h1{
+      font-size: 100px;
+      margin-bottom: 20px;
+      }
+    .visual-font p{
+      font-size: 34px;
+    }
   }
-  @media  all and (max-width: 480px) {
-    
+  @media  all and (max-width: 533px) {
+    .visual-font h1{
+      font-size: 68px;
+      margin-bottom: 20px;
+      }
+    .visual-font p{
+      font-size: 28px;
+    }
   }
+ 

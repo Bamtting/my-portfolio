@@ -32,5 +32,10 @@ window.addEventListener("load",function(){
 		showBox('.pf-box5');
 	  });
 
+	  var HmenuBtn = document.querySelector('.fa-bars')
+	  var Hmenu = document.querySelector('.header-menu')
+	  HmenuBtn.addEventListener("click",function(){
+		Hmenu.classList.toggle("active")
+	  })
  
 })
